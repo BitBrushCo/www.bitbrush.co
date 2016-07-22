@@ -1,7 +1,7 @@
-bitbrushapache:
+wwwbitbrushco:
   build: .
-  container_name: bitbrushapache
+  container_name: wwwbitbrushco
   ports:
    - "8080:80"
   volumes:
-    - /Users/BitBrush/dockerstartertest:/var/www/html
+    - /Users/BitBrush/dclwebsite:/var/www/html
