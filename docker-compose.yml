@@ -1,7 +1,7 @@
 wwwbitbrushco:
   build: .
-  container_name: wwwbitbrushco
+  container_name: apache-centos-svr
   ports:
    - "8080:80"
   volumes:
-    - /Users/BitBrush/dclwebsite:/var/www/html
+    - /${PROJECT_SOURCE_PATH}:/var/www/html
